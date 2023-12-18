@@ -6,5 +6,5 @@ const passengerAge = prompt("Inserisci la tua età");
 const minPrice = 0.21;
 console.log(minPrice);
 // Calcolare il prezzo in base alla distanza da percorrere
-let pricePerDistance = distanceToGO * minPrice;
+let pricePerDistance = (distanceToGO * minPrice).toFixed(2);
 console.log(pricePerDistance);
