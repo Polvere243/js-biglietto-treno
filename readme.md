@@ -12,5 +12,6 @@ Buon lavoro!
 1 - Chiedere all'utente il numero di km che vuole percorrere;
 2 - Dichiarare una costante;
 3 - Chiedere l'età all'utente;
-4 - Calcolare il prezzo totale del viaggio in base alle regole date;
-5 - Ricercare il modo in cui si ottiene un prezzo con un massimo di due decimali;
+4 - Calcolare il prezzo totale del viaggio moltiplicando il numero di km per 0.21;
+5 - aggiungere al prezzo uno sconto del 40% se l'età è maggiore di 65 anni;
+6 - Ricercare il modo in cui si ottiene un prezzo con un massimo di due decimali;
