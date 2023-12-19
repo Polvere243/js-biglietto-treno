@@ -1,7 +1,7 @@
 // chiedere all'utente la distanza che vuole percorrere
 const distanceToGO = prompt("Inserisci la distanza che vuoi percorrere");
 // chiedere all'utente la sua età
-const passengerAge = prompt("Inserisci la tua età");
+const passengerAge = prompt("Inserisci la tua età", "30");
 // Calcolare il prezzo del biglietto moltiplicando la distanza per 0.21
 const minPrice = 0.21;
 console.log(minPrice);
@@ -13,12 +13,14 @@ const youngAge = 20;
 
 const oldAge = 60;
 
-let discount = ;
+let discount; 
 
 if (passengerAge < youngAge) {
     discount = ((pricePerDistance / 100) * 20).toFixed(2);
 } else if (passengerAge > oldAge){
-    discount = ((pricePerDistance /100)* 60).toFixed(2);
+    discount = ((pricePerDistance /100)* 40).toFixed(2);
+} else if (passengerAge > youngAge && passengerAge < oldAge){
+    discount = 0
 }
 
 console.log(discount);
