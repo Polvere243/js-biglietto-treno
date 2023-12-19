@@ -8,3 +8,17 @@ console.log(minPrice);
 // Calcolare il prezzo in base alla distanza da percorrere
 let pricePerDistance = (distanceToGO * minPrice).toFixed(2);
 console.log(pricePerDistance);
+// Aggiungere lo sconto del 20% per i minori di vent'anni
+const youngAge = 20;
+
+const oldAge = 60;
+
+let discount = ;
+
+if (passengerAge < youngAge) {
+    discount = ((pricePerDistance / 100) * 20).toFixed(2);
+} else if (passengerAge > oldAge){
+    discount = ((pricePerDistance /100)* 60).toFixed(2);
+}
+
+console.log(discount);
